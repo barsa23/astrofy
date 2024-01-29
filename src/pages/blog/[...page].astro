@@ -13,14 +13,14 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<BaseLayout title="Blog" sideBarActiveItemID="blog">
+<BaseLayout title="Blog" sideBarActiveItemID="blog" >
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Blog</div>
+    <div class="text-xl w-full font-mono">Blogsito</div>
   </div>
 
   {
     page.data.length === 0 ? (
-      <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
+      <div class="bg-base-100 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
         <p>There are no blog posts to show at the moment. Check back later!</p>
       </div>
