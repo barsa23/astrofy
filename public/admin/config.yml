@@ -42,7 +42,6 @@ collections:
       - { name: layout, label: Layout, widget: hidden, default: "../../layouts/PostLayout.astro"}
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { name: publishedAt, label: Date, widget: date }
       - { name: publishDate, label: Publish Date,  widget: datetime}
       - { name: heroImage, label: Hero Image,  widget: image}
       - { name: isPublish, label: Publish, widget: boolean, default: true}
