@@ -13,8 +13,9 @@ backend:
   site_url: "https://frolicking-croquembouche-d45585.netlify.app/" # your site name
 
   # These lines should *not* be indented
-media_folder: "src/assets" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/assets" # The src attribute for uploaded media will begin with /images/uploads
+ # The src attribute for uploaded media will begin with /images/uploads
+media_folder: public/images
+public_folder: /images
 
 
 collections:
