@@ -39,10 +39,10 @@ collections:
     format: frontmatter
     preview_path: blog/{{slug}}
     fields:
-      - { name: layout, label: Layout, widget: hidden, default: "../../layouts/PostLayout.astro"}
+      # - { name: layout, label: Layout, widget: hidden, default: "../../layouts/PostLayout.astro"}
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { name: publishDate, label: Publish Date,  widget: datetime}
+      - { name: pubDate, label: Publish Date,  widget: date}
       - { name: heroImage, label: Hero Image,  widget: image}
       - { name: isPublish, label: Publish, widget: boolean, default: true}
       - { name: body, label: Body, widget: markdown }
