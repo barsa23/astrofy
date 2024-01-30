@@ -3,12 +3,12 @@ backend:
   branch: new2 # Branch to update (optional; defaults to master)
   repo: barsa23/astrofy #replace with your githu repo
 
-  publish mode: editorial_workflow
+  publish_mode: editorial_workflow
 
   squash_merges: true
   open_authoring: true
 
-  publish_mode: editorial_workflow
+
 
   site_url: "https://frolicking-croquembouche-d45585.netlify.app/" # your site name
 
