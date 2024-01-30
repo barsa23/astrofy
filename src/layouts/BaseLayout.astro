@@ -22,7 +22,7 @@ const {
   <head>
     <BaseHead title={title} description={description} image={image} , ogType={ogType} />
     {TRANSITION_API && <ViewTransitions />}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
   </head>
   <body>
     <div class=" drawer lg:drawer-open">
@@ -39,7 +39,7 @@ const {
       </div>
       {includeSidebar && <SideBar sideBarActiveItemID={sideBarActiveItemID} />}
     </div>
-    <script>
+    <!-- <script>
       declare global {
         interface Window {
           netlifyIdentity: any
@@ -56,6 +56,6 @@ const {
           }
         }));
       }
-    </script>
+    </script> -->
   </body>
 </html>
