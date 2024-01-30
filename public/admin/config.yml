@@ -42,7 +42,7 @@ collections:
       # - { name: layout, label: Layout, widget: hidden, default: "../../layouts/PostLayout.astro"}
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { name: pubDate, label: Publish Date,  widget: date}
+      - { name: pubDate, label: Publish Date,  widget: datetime}
       - { name: heroImage, label: Hero Image,  widget: image}
       - { name: isPublish, label: Publish, widget: boolean, default: true}
       - { name: body, label: Body, widget: markdown }
