@@ -45,5 +45,5 @@ collections:
       - { name: publishedAt, label: Date, widget: date }
       - { name: publishDate, label: Publish Date,  widget: datetime}
       - { name: heroImage, label: Hero Image,  widget: image}
-      - { name: isPublish label: Publish, widget: boolean, default: true}
+      - { name: isPublish, label: Publish, widget: boolean, default: true}
       - { name: body, label: Body, widget: markdown }
